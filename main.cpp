@@ -95,6 +95,6 @@ int main(){
     Sleep(1500);
     printBT("",root,false);
     
-    delete root;
+    delete[] root;
     return 0;
 }
