@@ -10,13 +10,9 @@ struct BSTNode {
 };
 
 BSTNode *insert(BSTNode *r, int x) {
-    
-    // base case
     if (r == nullptr) {
         return new BSTNode(x);
     }
-    
-    // rec case
     if (x < r->m_key) {
         r->m_left = insert(r->m_left,x);
     }
