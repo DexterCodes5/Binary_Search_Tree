@@ -99,5 +99,6 @@ int main(){
     Sleep(1500);
     printBT("",root,false);
     
+    delete root;
     return 0;
 }
